@@ -10,7 +10,7 @@
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
     "deploy": "gh-pages -d build",
-    "gh-pages": "gh-pages --repo https://github.com/GGozdziewski1994/library --dist doc --branch gh-pages"
+    "gh-pages": "gh-pages --repo https://github.com/GGozdziewski1994/library --dist dist --branch gh-pages"
   },
   "author": "Grzegorz Goździewski",
   "license": "ISC",
