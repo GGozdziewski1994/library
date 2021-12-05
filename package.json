@@ -6,11 +6,11 @@
   "targets": {
     "main": false
   },
-  "homepage": "https://github.com/GGozdziewski1994/library",
+  "homepage": "https://GGozdziewski1994.github.io/library",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
-    "deploy": "gh-pages -b master -d dist",
+    "deploy": "gh-pages -d dist",
     "gh-pages": "gh-pages --repo https://github.com/GGozdziewski1994/library --dist dist --branch gh-page"
   },
   "author": "Grzegorz Goździewski",
