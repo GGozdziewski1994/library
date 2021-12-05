@@ -6,10 +6,10 @@
   "targets": {
     "main": false
   },
-  "homepage": "https://ggozdziewski1994.github.io/library",
+  "homepage": "https://ggozdziewski1994.github.io/library --public-url https://github.com/GGozdziewski1994/library",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /dist/",
+    "build": "parcel build index.html --public-url https://github.com/GGozdziewski1994/library",
     "deploy": "gh-pages -d dist",
     "gh-pages": "gh-pages --repo https://github.com/GGozdziewski1994/library --dist dist --branch gh-pages"
   },
