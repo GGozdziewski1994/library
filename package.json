@@ -6,7 +6,7 @@
   "targets": {
     "main": false
   },
-  "homepage": "https://ggozdziewski1994.github.io/library",
+  "homepage": "https://ggozdziewski1994.github.io/library --public-url https://github.com/GGozdziewski1994/library",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
