@@ -6,12 +6,12 @@
   "targets": {
     "main": false
   },
-  "homepage": "https://GGozdziewski1994.github.io/library",
+  "homepage": "https://ggozdziewski1994.github.io/library",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
     "deploy": "gh-pages -d dist",
-    "gh-pages": "gh-pages --repo https://github.com/GGozdziewski1994/library --dist dist --branch gh-page"
+    "gh-pages": "gh-pages --repo https://github.com/GGozdziewski1994/library --dist dist --branch gh-pages"
   },
   "author": "Grzegorz Goździewski",
   "license": "ISC",
